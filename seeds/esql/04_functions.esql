@@ -1,0 +1,1 @@
+FROM idx | WHERE TO_LOWER(name) LIKE "a*" AND date > NOW() - 1 day | EVAL r = ROUND(value, 2)

@@ -1,0 +1,1 @@
+FROM logs-* | WHERE status >= 400 | STATS count = COUNT(*) BY host | SORT count DESC | LIMIT 10

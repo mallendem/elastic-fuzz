@@ -1,0 +1,1 @@
+FROM traffic | ENRICH geo ON src_ip WITH country | RENAME country AS geo_country | DROP src_ip
