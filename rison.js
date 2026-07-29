@@ -39,7 +39,10 @@ module.exports.fuzz = function (data) {
 };
 
 function isExpectedParseError(e) {
-  // rison-node signals malformed input with generic Error/SyntaxError/TypeError.
+  // rison-node signals malformed input by throwing a generic Error (or
+  // SyntaxError) with a parse message — those are not bugs. We deliberately do
+  // NOT treat TypeError as expected: a TypeError from inside the decoder (e.g.
+  // a method call on undefined) is a real robustness bug and should surface.
   // NOTE: a RangeError ("Maximum call stack size exceeded") from deeply nested
   // input is arguably a real unbounded-recursion DoS. We currently treat it as
   // expected to keep initial noise low; flip this to `false` for RangeError once
@@ -47,7 +50,6 @@ function isExpectedParseError(e) {
   return (
     e instanceof Error &&
     (e instanceof SyntaxError ||
-      e instanceof TypeError ||
       e instanceof RangeError ||
       e.constructor === Error)
   );
