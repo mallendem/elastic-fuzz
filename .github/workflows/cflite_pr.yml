@@ -41,3 +41,10 @@ jobs:
           fuzz-seconds: 300
           mode: 'code-change'
           sanitizer: ${{ matrix.sanitizer }}
+          # Read (only) the persisted corpus so PR runs fuzz against accumulated
+          # inputs, not just seeds. code-change never uploads, so contents:read
+          # suffices. On fork PRs the token is empty; cloning this public repo
+          # still works unauthenticated, so it degrades gracefully.
+          storage-repo: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          storage-repo-branch: corpus
+          storage-repo-branch-coverage: coverage
