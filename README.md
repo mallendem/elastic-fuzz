@@ -39,7 +39,7 @@ Vertex/oss-fuzz-gen path). Corpus comes from:
    build time. AI/LLM-generated inputs can be committed here.
 2. **Coverage-guided mutation** by libFuzzer during a run (keeps inputs that hit
    new coverage).
-3. **Persistence** across runs via a storage repo (see below).
+3. **Persistence** across runs (wired) — see "Corpus & coverage persistence".
 
 ## Workflows
 
@@ -48,16 +48,28 @@ Vertex/oss-fuzz-gen path). Corpus comes from:
 - `.github/workflows/cflite_batch.yml` — `batch` mode: 30-min scheduled run per
   target to surface crashes over time.
 
+## Corpus & coverage persistence (wired)
+
+Corpus and coverage survive across runs, stored in two orphan branches of **this
+same repo**, authenticated with the built-in `secrets.GITHUB_TOKEN` (no PAT):
+
+| Branch | Holds | Written by |
+|--------|-------|------------|
+| `corpus` | `corpus/<target>/` — accumulated inputs | `cflite_batch.yml` `batch` job |
+| `coverage` | `coverage/<target>/` — coverage reports | `cflite_batch.yml` `coverage` job |
+
+CIFuzz's git filestore clones `storage-repo` by URL and pushes with plain git, so
+the token is embedded in the URL (`x-access-token:${{ secrets.GITHUB_TOKEN }}`)
+and the batch workflow grants `permissions: contents: write`. GITHUB_TOKEN pushes
+don't re-trigger workflows, so there's no recursion. `cflite_pr.yml` reads the
+`corpus` branch (read-only) so PRs fuzz against accumulated inputs.
+
 ## Deferred integrations (handoff)
 
 These are intentionally **not** wired yet — the scaffold runs without them:
 
-- **Corpus persistence (recommended).** The "git, no GCP" option: create a
-  private repo `mallendem/elastic-fuzz-corpus` and a repo secret
-  `PERSONAL_ACCESS_TOKEN` (repo scope), then uncomment the `storage-repo*` lines
-  in `cflite_batch.yml`. Without it, each run restarts from seeds.
 - **GCS-backed corpus/coverage** (optional, needs WIF + a service account) —
-  the more "production" alternative to the storage repo.
+  the more "production" alternative to the same-repo storage branches.
 
 ## Fuzz-per-PR on Kibana (north star)
 
