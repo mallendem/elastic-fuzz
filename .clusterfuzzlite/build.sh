@@ -10,7 +10,7 @@
 # harnesses synchronously.
 
 cd "$SRC/kibana-fuzz"
-npm install --no-audit --no-fund
+npm ci --no-audit --no-fund
 
 # ES|QL parser (@elastic/esql) — instrument the esql package.
 compile_javascript_fuzzer kibana-fuzz esql.js -i esql --sync
@@ -21,5 +21,13 @@ compile_javascript_fuzzer kibana-fuzz rison.js -i rison-node --sync
 # Seed corpora bootstrap coverage-guided fuzzing. libFuzzer picks up
 # $OUT/<fuzzer>_seed_corpus.zip automatically. AI/LLM-generated inputs (e.g.
 # from the cluster's Vertex corpus-gen) can be dropped into seeds/<target>/ too.
-zip -j "$OUT/esql_seed_corpus.zip" seeds/esql/*
-zip -j "$OUT/rison_seed_corpus.zip" seeds/rison/*
+# nullglob so an empty seeds dir yields an empty array instead of a literal glob.
+shopt -s nullglob
+esql_seeds=(seeds/esql/*)
+rison_seeds=(seeds/rison/*)
+if [ ${#esql_seeds[@]} -gt 0 ]; then
+  zip -j "$OUT/esql_seed_corpus.zip" "${esql_seeds[@]}"
+fi
+if [ ${#rison_seeds[@]} -gt 0 ]; then
+  zip -j "$OUT/rison_seed_corpus.zip" "${rison_seeds[@]}"
+fi

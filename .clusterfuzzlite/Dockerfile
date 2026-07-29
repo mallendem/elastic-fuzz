@@ -6,7 +6,7 @@
 # 4.0.0's prebuilt needs GLIBC_2.32+). Upgrading to Jazzer 4.x needs a
 # glibc>=2.32 base for CFLite AND the cluster alike. The harnesses + pinned
 # parsers are installed by build.sh.
-FROM gcr.io/oss-fuzz-base/base-builder-javascript
+FROM gcr.io/oss-fuzz-base/base-builder-javascript@sha256:32e3e2333b153cdf47c6322bcdb8006805cb673dfc4b0f8cba585d491dfc7011
 
 COPY . $SRC/kibana-fuzz
 WORKDIR $SRC/kibana-fuzz
