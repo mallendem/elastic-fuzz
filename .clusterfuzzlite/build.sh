@@ -15,6 +15,11 @@ npm ci --no-audit --no-fund
 # ES|QL parser (@elastic/esql) — instrument the esql package.
 compile_javascript_fuzzer kibana-fuzz esql.js -i esql --sync
 
+# ES|QL keyword/operator dictionary. libFuzzer auto-loads <fuzzer>.dict from the
+# fuzzer's directory, so shipping it as $OUT/esql.dict seeds the mutator with
+# valid grammar tokens. Only esql benefits (rison's tiny grammar is saturated).
+cp esql.dict "$OUT/esql.dict"
+
 # RISON decoder (rison-node) — instrument the rison-node package.
 compile_javascript_fuzzer kibana-fuzz rison.js -i rison-node --sync
 
