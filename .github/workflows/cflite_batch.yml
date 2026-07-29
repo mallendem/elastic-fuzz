@@ -3,13 +3,20 @@ name: cflite batch
 # Continuous/batch fuzzing (ClusterFuzzLite "batch" mode): fuzzes each target
 # for a longer budget on a schedule to surface crashes over time. This is the
 # CFLite counterpart to the self-hosted ClusterFuzz cluster's continuous jobs.
+#
+# Corpus + coverage PERSIST across runs in dedicated orphan branches of THIS
+# same repo, authenticated with the built-in secrets.GITHUB_TOKEN (no PAT):
+#   - corpus   -> corpus/<target>/   (grown each batch run)
+#   - coverage -> coverage/<target>/ (regenerated from the persisted corpus)
+# CIFuzz's git filestore clones storage-repo by URL and pushes with plain git,
+# so the token is embedded in the URL; contents:write lets it push to this repo.
 on:
   workflow_dispatch:
   schedule:
     - cron: '19 4 * * *' # daily, off-peak minute
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   Fuzzing:
@@ -39,12 +46,38 @@ jobs:
           fuzz-seconds: 1800
           mode: 'batch'
           sanitizer: ${{ matrix.sanitizer }}
-          # --- Corpus persistence (deferred integration) ---
-          # The "git branch, no GCP" option: create a private repo
-          # mallendem/elastic-fuzz-corpus and a repo secret PERSONAL_ACCESS_TOKEN
-          # (repo scope), then uncomment to persist corpus across runs. Without
-          # it, batch mode still fuzzes and reports crashes; corpus just resets
-          # each run.
-          # storage-repo: https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/mallendem/elastic-fuzz-corpus.git
-          # storage-repo-branch: main
-          # storage-repo-branch-coverage: gh-pages
+          # Persist the corpus back into this repo's `corpus` branch. The token
+          # is embedded in the URL because the git filestore pushes with plain
+          # git; secrets in a `with:` (not a `run:`) are safe.
+          storage-repo: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          storage-repo-branch: corpus
+          storage-repo-branch-coverage: coverage
+
+  Coverage:
+    # Regenerate the coverage report from the freshly-persisted corpus. For
+    # JavaScript, coverage is produced at runtime by Jazzer.js (nyc), not via a
+    # native coverage sanitizer, so the Dockerfile's forced SANITIZER=none is
+    # irrelevant here. Runs after Fuzzing so it reads the just-pushed corpus.
+    needs: Fuzzing
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-coverage
+      cancel-in-progress: false
+    steps:
+      - name: Build Fuzzers (coverage)
+        id: build
+        uses: google/clusterfuzzlite/actions/build_fuzzers@v1
+        with:
+          language: javascript
+          sanitizer: coverage
+      - name: Run Fuzzers (coverage)
+        id: run
+        uses: google/clusterfuzzlite/actions/run_fuzzers@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          fuzz-seconds: 600
+          mode: 'coverage'
+          sanitizer: coverage
+          storage-repo: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          storage-repo-branch: corpus
+          storage-repo-branch-coverage: coverage
