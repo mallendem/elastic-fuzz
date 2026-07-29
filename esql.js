@@ -16,10 +16,25 @@
  * exception is an unexpected parser bug and a real finding. A RangeError
  * ("Maximum call stack size exceeded") from unbounded recursion is a DoS
  * finding and should surface too.
+ *
+ * We also exercise the two downstream consumers Kibana runs on every parsed
+ * query: Walker.walk (AST traversal — visitors, autocomplete, validation all
+ * ride on it) and BasicPrettyPrinter.print (serializes the AST back to text).
+ * Both tolerate error-ASTs without throwing (verified against malformed input),
+ * so — like parse() — they get NO try/catch: a throw is a real bug. Finally we
+ * re-parse the printed form as a print/parse round-trip: printing a valid AST
+ * must yield re-parseable text.
  */
 
-const { parse } = require('@elastic/esql');
+const { parse, walk, BasicPrettyPrinter } = require('@elastic/esql');
 
 module.exports.fuzz = function (data) {
-  parse(data.toString('utf-8'));
+  const { root } = parse(data.toString('utf-8'));
+
+  // Traverse the AST (visitAny fires on every node).
+  walk(root, { visitAny() {} });
+
+  // Serialize the AST back to a query string, then re-parse it.
+  const printed = BasicPrettyPrinter.print(root);
+  parse(printed);
 };
