@@ -1,0 +1,44 @@
+name: cflite batch
+
+# Continuous/batch fuzzing (ClusterFuzzLite "batch" mode): fuzzes each target
+# for a longer budget on a schedule to surface crashes over time. This is the
+# CFLite counterpart to the self-hosted ClusterFuzz cluster's continuous jobs.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4 * * *' # daily, off-peak minute
+
+permissions:
+  contents: read
+
+jobs:
+  Fuzzing:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        sanitizer: [none] # Jazzer.js is JS; no native sanitizer.
+    steps:
+      - name: Build Fuzzers (${{ matrix.sanitizer }})
+        id: build
+        uses: google/clusterfuzzlite/actions/build_fuzzers@v1
+        with:
+          language: javascript
+          sanitizer: ${{ matrix.sanitizer }}
+      - name: Run Fuzzers (${{ matrix.sanitizer }})
+        id: run
+        uses: google/clusterfuzzlite/actions/run_fuzzers@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          fuzz-seconds: 1800
+          mode: 'batch'
+          sanitizer: ${{ matrix.sanitizer }}
+          # --- Corpus persistence (deferred integration) ---
+          # The "git branch, no GCP" option: create a private repo
+          # mallendem/elastic-fuzz-corpus and a repo secret PERSONAL_ACCESS_TOKEN
+          # (repo scope), then uncomment to persist corpus across runs. Without
+          # it, batch mode still fuzzes and reports crashes; corpus just resets
+          # each run.
+          # storage-repo: https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/mallendem/elastic-fuzz-corpus.git
+          # storage-repo-branch: main
+          # storage-repo-branch-coverage: gh-pages
