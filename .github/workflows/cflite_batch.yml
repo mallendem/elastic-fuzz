@@ -20,7 +20,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        sanitizer: [none] # Jazzer.js is JS; no native sanitizer.
+        # Jazzer.js has no native sanitizer, but the CFLite CI action only
+        # accepts address|memory|undefined|coverage. `address` is the
+        # conventional no-op label for JavaScript targets.
+        sanitizer: [address]
     steps:
       - name: Build Fuzzers (${{ matrix.sanitizer }})
         id: build
