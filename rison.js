@@ -68,13 +68,14 @@ function isExpectedParseError(e) {
     //    escapes (e.g. "%"). Kibana's `@kbn/rison` decode_uri rejects the same
     //    input identically, so this is expected malformed input, not a bug.
     msg.includes('URI malformed') ||
-    // 4. KNOWN unbounded-recursion DoS in rison-node. Unbalanced input (as small
-    //    as "(") makes parse_object recurse forever, throwing:
-    //    "RangeError: Maximum call stack size exceeded". It is a genuine bug, but
-    //    trivially reachable, so letting it propagate would crash the PR gate on
-    //    every run and mask all other findings. We suppress it here to keep the
-    //    gate green and the fuzzer exploring; track/fix the recursion depth
-    //    separately. Flip this substring out to hunt recursion crashes directly.
+    // 4. KNOWN, TRIAGED unbounded-recursion DoS in rison-node (see FINDINGS.md
+    //    F-001). Unbalanced input as small as "(" makes parse_object recurse
+    //    forever, throwing "RangeError: Maximum call stack size exceeded". It is
+    //    a real bug, but trivially reachable, so letting it propagate would crash
+    //    the PR gate on every run and mask all other findings. We suppress ONLY
+    //    this specific message (any other RangeError still propagates) to keep
+    //    the gate green and the fuzzer exploring for NEW bugs; flip this substring
+    //    out for a dedicated recursion-depth hunt later.
     msg.includes('Maximum call stack size exceeded')
   );
   // Everything else PROPAGATES as a finding: any unexpected TypeError or other
