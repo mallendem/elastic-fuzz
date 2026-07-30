@@ -1,0 +1,1 @@
+FROM logs | GROK message "%{IP:client} %{WORD:method}" | DISSECT message "%{ts} %{+ts} %{msg}"

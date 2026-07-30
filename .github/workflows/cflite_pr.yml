@@ -1,0 +1,50 @@
+name: cflite pr
+
+# Per-PR fuzzing gate (ClusterFuzzLite "code-change" mode): builds the fuzzers
+# from the PR, fuzzes for a short budget, and fails the PR on a NEW crash.
+#
+# NOTE: this gates *this* repo's PRs. The genuine per-Kibana-PR gate requires
+# this same .clusterfuzzlite/ setup to live in elastic/kibana; this file is the
+# template to lift over once the Kibana team opts in.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  PR:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ matrix.sanitizer }}-${{ github.ref }}
+      cancel-in-progress: true
+    strategy:
+      fail-fast: false
+      matrix:
+        # Jazzer.js has no native sanitizer, but the CFLite CI action only
+        # accepts address|memory|undefined|coverage. `address` is the
+        # conventional no-op label for JavaScript targets.
+        sanitizer: [address]
+    steps:
+      - name: Build Fuzzers (${{ matrix.sanitizer }})
+        id: build
+        uses: google/clusterfuzzlite/actions/build_fuzzers@v1
+        with:
+          language: javascript
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          sanitizer: ${{ matrix.sanitizer }}
+      - name: Run Fuzzers (${{ matrix.sanitizer }})
+        id: run
+        uses: google/clusterfuzzlite/actions/run_fuzzers@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          fuzz-seconds: 300
+          mode: 'code-change'
+          sanitizer: ${{ matrix.sanitizer }}
+          # Read (only) the persisted corpus so PR runs fuzz against accumulated
+          # inputs, not just seeds. code-change never uploads, so contents:read
+          # suffices. On fork PRs the token is empty; cloning this public repo
+          # still works unauthenticated, so it degrades gracefully.
+          storage-repo: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          storage-repo-branch: corpus
+          storage-repo-branch-coverage: coverage

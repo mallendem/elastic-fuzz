@@ -1,0 +1,1 @@
+FROM idx | EVAL x = CASE(a > 1, CASE(b < 2, COALESCE(c, 0), ROUND(AVG(d), 2)), CASE(e == 3, CONCAT(TO_STRING(f), "z"), SUBSTRING(g, 1, LENGTH(g)))) | KEEP x

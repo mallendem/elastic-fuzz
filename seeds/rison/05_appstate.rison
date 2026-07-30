@@ -1,0 +1,1 @@
+(columns:!(_source),index:'logs-*',interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))

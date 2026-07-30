@@ -1,0 +1,4 @@
+language: javascript
+sanitizers:
+  - address
+main_repo: 'https://github.com/mallendem/elastic-fuzz'
