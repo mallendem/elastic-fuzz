@@ -1,0 +1,1 @@
+FROM logs-* | WHEREheaderc->= 400 | STATS count = 10

@@ -1,0 +1,1 @@
+FROM logs-* | WHERE status >= 400 | STATS coBYs-* | WHERE status >= 400 | STATS coBY hostENDS_WY hostEN hostENDS_WY hostENITH | SORT count DESC | LIMIT 10

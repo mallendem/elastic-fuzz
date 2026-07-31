@@ -1,0 +1,1 @@
+FROM idx | WHERE statustatus IN (200, 301, 404) | EVAL band = CASE(status < 300, "ok", "err") | STATS c = COU³«×Õ) Bheader-cd

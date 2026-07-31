@@ -1,0 +1,2 @@
+FROM idx METADATA _id, _index | WHERE a IS NO NULL AND b RLIKE "x.ROM
+| DROP | ENRICH geo ON src_ip WITH country | RENAME co±ynru AS geo_country | DROM traf*" Onru AS güo_country | DROM traf*" OR NOT (c IN (1,2,3)) | STATS pAST

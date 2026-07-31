@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t | D DROM traffi LIMIT 1000 | MV_EXPAND [| WHERE t > 1 | EVAL u = 1 | STATS s => 0 | EVSFROM i p

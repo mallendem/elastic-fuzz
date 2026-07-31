@@ -1,0 +1,1 @@
+FROM a,",c | WHERE t > 1 | EVAL u = ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=ÿFROMÿFROM mdx MV_AXPAND ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=ÿFROMÿFROM idx METADATA _id, _iRLIKEndex | WHERE a IS NOT NN2,2¬3)) | STATS p = ÿÿÿSECT w "%{p}" | GROK p "%{NUMBER:n}"PE|RCENTILE(v, 95), m = COUNT_DILLSØ³¾¬T

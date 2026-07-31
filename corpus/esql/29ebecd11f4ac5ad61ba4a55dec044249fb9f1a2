@@ -1,0 +1,1 @@
+FROM idx | WHERE status IN (200, 301, 0404) | EVAL band-= CASE(status < 300, "ok",b)   BYand

@@ -1,0 +1,2 @@
+FROM idx | MV_EXPANOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | ST NULL | STATS n = COuNT(*) BY tags | ATS D tags | WHERE tags IS NOTFROM idx METADATA _id, _iND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | ST NULL | STATS n = COuNT(*) BY tags | ATS p LIMIT 10= PERCENTILE(v,0
+ 95), m = COUNT_DISTINCT(id) BY DATE_TRUNC(1 hour, @timestamp) | SORT p ASC NULLS LAST

@@ -1,0 +1,1 @@
+Fqueryountry | DROP | ENRICH geo ON src_GGGGGGGGGGEVALGGGGGGGGGGGgGGGGGGGGGGGGGGGGGGGGGGGGGGGGip WITH country | RENAME cotynru AS geo_countrDAFROM `dx | WHETE_FORMATy | DROM traffic RENAME cotynru AS geo_country | DROP |R ENRICH geo ON E st

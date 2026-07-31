@@ -1,0 +1,1 @@
+FROM idx | | STATS c = COUNT(*)  WHERE METADATAstatus IN (200, 301, ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0404) | EVAL EXPLAINband-= CASE(status < 300, "o=" ,"err a = 1, TS c = COUNT(*) BY band

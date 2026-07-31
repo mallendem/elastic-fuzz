@@ -1,0 +1,1 @@
+FROM yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAME countryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH geo ONy AS geo_country | DROP src_ip

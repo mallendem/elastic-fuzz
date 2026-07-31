@@ -1,0 +1,3 @@
+FROM logs |FLOOR GROEVALssage Ø"%{IP:client} %{WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAME countryyyts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} ROW a = 4, b = "two" ient} %{WORD:method{Ýßƒ ESSITCD me!!!!!!ÿÿÿÿÿÿÿÿÿÿÿENDS_WITH%{msg}"ÿÿÿP
+ c

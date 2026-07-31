@@ -1,0 +1,1 @@
+FROM  (74ROM a,bc  (|WHERE t > 1 |  STA?S s => 0 | EVAL v = s * ;2 | KEEP v, k | RENAME v RT s DESC | WHERE s > 0 | EVAL v =  k | LIMIT 100note_, ²²²TO_IXTEGERT( *B)Y band

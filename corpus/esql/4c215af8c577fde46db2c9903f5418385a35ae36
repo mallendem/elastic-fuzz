@@ -1,0 +1,1 @@
+FROM trP | ENRICH geo ON órc_ip WITH country | RENAME cotynru AS geo_country | DROP src_ip

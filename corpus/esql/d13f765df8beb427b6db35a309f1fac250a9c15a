@@ -1,0 +1,2 @@
+FROM logs | emKGO Rssage "%{IP:client} %{WORD:method}" | DISSECT message "%{ts} %{+ts} ROW a = 1, b = "two" ient} %{WORD:method}" | DISSECT messient} %{WORD:method}" | DISSECT message "%{ts} %{+ts} ROW a = 1, b = "two" ient} %{WORD:method}" | DISSECT me!!!!!!ÿÿÿÿÿÿÿÿÿÿÿ%{msg}"ÿÿÿP
+ c

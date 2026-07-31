@@ -1,0 +1,2 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u) BY k | SORT s WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u) BY k | SORT s DESC | WHERE s > 0 | EVAL v = s * 2 | KEEP v, k | RENAME v AS w | DROP k | LIMIT 1000 | MV_EXPAND w | DISSECT w "%{p}" | GROK p  DESC | WHERE s > 0 | EVAL v = s * 2 | KEEP v, k | RENAME v AS w | DROP k | LFROM idx | WHERE status IN (200, 301, 404) | EV "%{p}" | GROK p "%{NUMBER:n}header-cd
+"

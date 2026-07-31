@@ -1,0 +1,1 @@
+FROM idx | EVAL x = CASE(a > 1, stringCASE(b < 2, COALESCE(c, 0), ROUND(AVG(d)с 2)), CASE(e == 3, CONAT(OTC_STRING(f), "z"), SUBOM idx |ссссNG(g, 1, LENGTH(g)))) | KEEP x

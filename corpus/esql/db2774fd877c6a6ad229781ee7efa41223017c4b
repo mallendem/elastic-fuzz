@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u9 BY k | SORT s DESC | WHERE s > 0 | EVAL v = s * 2 | KE WHEREs = SUM(u) BYEP v, k & | MV_EXPAND w | DISp "%{NUMBER:n}"

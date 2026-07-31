@@ -1,0 +1,2 @@
+FROM traffic | ENRICH geo ON srcheader-c country | RENAME country AS gFRFROM traffic | ENRICH geo ON srcheader-c country | RENAND tags | WHERE tags IS N idx OETADATA _id, _index | WHuntry | DROP src N_ip
+UALLS LAST

@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u k | LIMIT 0999 | MV_EXPAND T w "%{p}" | GROK p "%{NUMBER:n}"

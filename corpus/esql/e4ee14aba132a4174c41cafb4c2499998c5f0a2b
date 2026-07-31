@@ -1,0 +1,1 @@
+FROM yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyouîntry | RENAME H geo ONy AS geo_counROM a,b,c | WHERAL v = s * 4 | KEEP v, k | RENAME v AS w | DROP[ k | LIMIT 1000 | MV_EXPAND w | DISSE k | LIMIT 0999 | MV_EX DISSECT w "%{p}" | GROK p "%{DATE_TRUÿtry | DROP sbc_ip

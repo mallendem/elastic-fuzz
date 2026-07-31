@@ -1,0 +1,2 @@
+FROM s | GROK message "%{IP}"
++ts{msg}"

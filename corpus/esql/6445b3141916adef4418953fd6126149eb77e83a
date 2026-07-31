@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags | WHERE tags IS| STATS n = COUNT(*) BY tags | LIMIT 100

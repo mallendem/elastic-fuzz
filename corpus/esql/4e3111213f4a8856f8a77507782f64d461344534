@@ -1,0 +1,4 @@
+FROM  (~47, T²²uuuuuuuuuuuuuuuuuuu-uuuuuuuFROM iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿdx | MV_EXPANND tags | WHERE tags IS NOTFROM idx METADATA _id, _index | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (4,2,3)) | ST NULL | STATS n = COuNT(*×ßBY tags | ATS p LIMIT 10= PERCENTILE(v,0
+ 95), S LAD tags | WHERE tags IS NOTFROM idx METADATA _id, _index | WHERE a IS NOT NULÿÿÿÿÿÿdx | MV_EXPANND tags | WHERE  tagIsS NOÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿdx | MV_EXPANND tags | WHERE tags IS NOTFROM idx METADATA _LL | STATS n = COuNT(*×ßBY tags | ATS p LIMIT 10= PERCENTILE(v,0
+ 95), FROM logs | GROK message "%{IP:client} %{Wm = COUNT_DISTINCT(id) BY DATE_TRUORD:method}" uuuuuuuuuuuuuuuuuu]uuuuuuuuuuuuuuuuuuuuEXPLAIN M@TADATA RE a IS| DISSECT message "%{ts} %{+ts} FC(1 hour, @timestamp%{msg) | }"
+SORT p ASC N NOT NULL AND b RLI *ULL| WHERBdS LAOST

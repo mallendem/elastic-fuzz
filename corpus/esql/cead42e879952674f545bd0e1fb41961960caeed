@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags | WHERE t.gs IS NOT*) BY noteags | LIMIT00

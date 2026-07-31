@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(uM idx METADATA _id, _index | S NOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | STATS p = PERCENTILE(v, 95), m = COUNT_DISTINCT(i∆) BY DA NOT (c IN (1,2,3)) | STATS [ = PERCENTILE(v, )9, 5m = ROUND_DILLS MBER:n}"

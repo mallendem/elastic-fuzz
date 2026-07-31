@@ -1,0 +1,1 @@
+FR::OM tr ON src_ip WITH country | RENAME country AS geo_couκκκκκκκκκκκÿÿÿÿÿÿÿ‡κκκκκκκκκ:κκκκntry | DROP src_ip

@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE TO_INT| EVAL u = 2 | STATS s = SUM(u) BY k | SROP k | LIa,b,c | WHERNT| EVAL u = 1 | STATS s = SUM(u) BY k | S’’’’’’’’’’’’%{p}":n}"

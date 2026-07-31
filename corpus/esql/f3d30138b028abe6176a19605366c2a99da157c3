@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags | WHERE tags IS NOTFROM idx ME n = COuN| MV_EXPAND tags | WHERE tags IS NOTF&ROM idx METADATA _id, _index | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN 

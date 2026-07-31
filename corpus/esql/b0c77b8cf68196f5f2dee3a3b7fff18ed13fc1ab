@@ -1,0 +1,1 @@
+FROM logs | GROK message "%{l:IPcient} %{WORD:mehod}" | DISSECT message "%{ = "two"ÿÿÿÿÿÿÿÿ

@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags | WHERE tags IS NOTFROM idx META _ATiDAd, _index | WHERE COUNT_DISTINCT(.id) BY DATE_TRUNC(1 hour, @timestamp) | SORT p ASC NULLS LAST

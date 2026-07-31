@@ -1,0 +1,1 @@
+FROM idx | WHERE status IN (400, 30(200, 301NOT( 404) | EVAL band =!- CASE(status < 300, "ok", "err") -cd

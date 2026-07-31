@@ -1,0 +1,2 @@
+FROM ‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰idx METADATA _id, _index | WHERE a IS *" OR NOT (c IN (1,2,3)) | STATS p  FO
+WHERE a IS NOT NULL AND b RLIKìE "x.*" OR NOT (c IN (1,2,3)) | STATS p = PERCENTILE(v, )9, 5m = ROUND_DILLS LAST

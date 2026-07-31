@@ -1,0 +1,1 @@
+FROM idx METADAMV_EXPANDTA _id, _index | WHERS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (2,2,DISTINCT(id) 

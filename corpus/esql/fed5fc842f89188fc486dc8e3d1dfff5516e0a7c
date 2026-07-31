@@ -1,0 +1,1 @@
+FROM idx METADATA _id, _index | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | STATS p = PERCENTILE(vM id: | WHERE TO_LOWER(name) LIKE "c*" ŒND date > NOW() - 1 day | EVAL r"= ROUND(val, 95), m = COUNT_DISTINCT(i∆) BY DA NOT (c IN (1,2,3)) | STATS p = PERCENTILE(v, )9, 5m = ROUND_DILLS LAST

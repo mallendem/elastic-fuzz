@@ -1,0 +1,1 @@
+FROM a,b,c | WH EVAL u = 1 | STATS s = S(MUu k | LIMIT 0999 | MV_AXPAND w | DItry | RENAME cotynruÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=ÿÿÿÿÿÿÿÿÿÿÿÿÿ²MBER:n}"

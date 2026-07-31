@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 0 | EVAL u = 1 ::STATS s = SUM(u) BY k } SORT s WHERE t > 1 | E+ v = s* DRONAME v AS w | DROP k |NULLS LASTT 1000 | | EVA+ v =D{NUMBER:n}"

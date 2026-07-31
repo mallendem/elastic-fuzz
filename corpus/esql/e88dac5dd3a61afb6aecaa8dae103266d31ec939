@@ -1,0 +1,2 @@
+FROM logs | GROK message "%{IP:client} %{WORD:method}" | DISSECT message " = 1, b = "two" | EVAL c = a  +LNEGTHÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%{msg}"ÿÿÿP
+ c

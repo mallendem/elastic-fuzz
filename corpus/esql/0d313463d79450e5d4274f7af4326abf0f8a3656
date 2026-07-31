@@ -1,0 +1,1 @@
+FROM idx |! |!WHERE statatus < , "(ok",  | WHERE stus < , "(ok",  | STATS c = OUNT(LIMIT band

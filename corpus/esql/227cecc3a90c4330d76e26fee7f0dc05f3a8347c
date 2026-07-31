@@ -1,0 +1,2 @@
+FROM a,b,c | WHERE t > 0 | EVAL u = 1 | ST!TS 3 =FROM idx SUM(u) BY k | SOVAL v = s * 2 | K | WHERE status IN ("00,AME v AS== | DMBER: BY n}"band
+RT s DESC | WHERE s > 0 | EVAL v = s *  K | WHERE status IN ("00,AME v AS== | DMBER: BY n}"band

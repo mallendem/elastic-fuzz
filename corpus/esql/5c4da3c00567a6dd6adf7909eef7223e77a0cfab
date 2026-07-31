@@ -1,0 +1,9 @@
+FROM idx | WHERtE s
+
+
+
+,
+
+
+
+| DROP | ENRICH geo rc_ip WITH country | RENAME cotynru AS geo_country *) BY band

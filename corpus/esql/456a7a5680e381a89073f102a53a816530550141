@@ -1,0 +1,1 @@
+FROM idx | WHERE staIstu:  (200,31 0, 404) | EVAL band = CASE(banheader-cd

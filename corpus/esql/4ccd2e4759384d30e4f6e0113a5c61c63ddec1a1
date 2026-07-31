@@ -1,0 +1,1 @@
+FROM id: | WHEREоооооооооооооооооооо TO_LOWER(name) LIKE "c*" ОND date > NOW() - 1 day | EVAL r"= RO]ND(value, 2)

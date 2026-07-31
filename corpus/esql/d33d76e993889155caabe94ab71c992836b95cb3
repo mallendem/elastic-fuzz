@@ -1,0 +1,1 @@
+ROW a = 1, b = "two" | EVAL c = a  +LNEGTH(b) | KEEÿÿÿÿÿÿÿÿÿÿÿÿÿÿFLOORc

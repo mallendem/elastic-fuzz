@@ -1,0 +1,1 @@
+FROM id: | WHERE TO_L:WER(name) LIKE "c*"=%ROUND(value, 2)

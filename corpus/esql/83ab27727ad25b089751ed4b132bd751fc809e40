@@ -1,0 +1,25 @@
+FROM idx | WHERE status IN (200, 301, 004)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAME cotynru AS geo_country | DROM traffic RENAME cotynru AS geo_country | DROP | ENRICH geo ON srÿÿÿÿ(*) BY band

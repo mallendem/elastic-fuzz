@@ -1,0 +1,2 @@
+FROM yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH g˜o ON src_ip WITH country | RENAME countryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy,yyyyyyyyy geo_country | DROP src_ip
+identifier

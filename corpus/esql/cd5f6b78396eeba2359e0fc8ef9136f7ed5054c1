@@ -1,0 +1,26 @@
+FROM idx | WHERE status IN (200, 301, 004)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo FROM traffic | ENRICH geo ON srcheader-c country | RENAME country AS gFRFROM N idx OETADATA _id, _index | WHuntry | DROP src N_ip
+UALLS Lry AS gFRFROM traffic | ENRAICSH T sr)ÿÿÿ(*) BY band

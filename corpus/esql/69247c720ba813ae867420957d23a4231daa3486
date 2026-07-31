@@ -1,0 +1,1 @@
+FROM logs | GROK message Ø"%IP:client} %{WORD:method}" | GROK messassage "%{ts} %{sg}"

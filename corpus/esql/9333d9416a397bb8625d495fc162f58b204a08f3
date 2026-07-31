@@ -1,0 +1,2 @@
+FROM  (74ROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s FROM idx | WHERuntry | PE| ENRICH geo ON sr)ÿÿÿ(*) BY bcnd
+ DISSEv = s * 2 | KEEP v, k | RENAME v ASMV_EXPAND w | DISSECT!=c | WHERE  KEEP v, k | RENAME v AS w | DROP k | LIMIT 100note_, ²²²TO_IXTEGERT( *B)Y band

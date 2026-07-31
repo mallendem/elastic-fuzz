@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | ST!TS 3 =FROM idx SUM(u) BY k | SORT sdCOALESCEdddddd * 2 | K |AEVAL v = s * 2 | K | WHERE status IN ("00,AME v AS w | DMBER: BY n}"band
