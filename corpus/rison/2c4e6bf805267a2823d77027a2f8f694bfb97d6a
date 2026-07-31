@@ -1,0 +1,1 @@
+(colupns:!(_source),index:'logs-*',interval:auto,query:(lasort:!(!('@timestamp',desc)))

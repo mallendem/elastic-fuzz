@@ -1,0 +1,1 @@
+(clupns:!(_source),index:'logs-*',in:(lasort:!(!('@timestamp',desc)))

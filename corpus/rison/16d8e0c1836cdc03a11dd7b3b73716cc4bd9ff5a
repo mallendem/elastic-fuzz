@@ -1,0 +1,1 @@
+(clupf:!(_squrce),index:'gs-*',in:(lat:!(!('@timestamp',desc)))

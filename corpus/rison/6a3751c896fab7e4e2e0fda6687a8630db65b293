@@ -1,0 +1,1 @@
+(query:(match:(field:'value')),fters:!((meta:(negate:!f)),(range:(gte:0,lte:100))))
