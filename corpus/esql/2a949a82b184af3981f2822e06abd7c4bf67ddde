@@ -1,0 +1,25 @@
+FROM idx | WHERE status IN (200, 301, 004)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo FROM traffic | ENRICH geo ON srcheader-c country | RENAME country AS gFRFROM N idxBY band

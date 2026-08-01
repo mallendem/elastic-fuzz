@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 |1000 | MV_EXPACONCAT0 | MV_EXPAND w | DISSECT w "%{p}"T v, 95), m = COUNT_DISTIw t DISSECT w "%{p}" | GROK pS%" {TNUMBE w "%{p}" | {NUMBER:n}"

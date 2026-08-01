@@ -1,0 +1,1 @@
+FROM yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyiyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy®yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH geo{WORD:method}" | DISSECT messqge "%{ts} %{+ts} ROW a = 1, b = "two" ien ON src_ip WITH country | RENAME countryyyyyyyyyyyyyyyyH geo ONy AS geo_country | DROP src_ip

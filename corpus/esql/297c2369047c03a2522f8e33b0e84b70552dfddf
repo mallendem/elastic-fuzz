@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL | DISSECT w "%{p}"T v, 95), m = COUNT_DISTIw t DISSECT w "%{p}" | GROK pS%" {TNUMBE w "%{p}" | {NUMBER:n}"

@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags"| WHERE tags IS NOT NULL | STATS n = COUNT(*) BY tags | IMIT 100

@@ -1,0 +1,1 @@
+FROM idx METADATA _id, _index |FORK WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | STA BY DAT[_TRUNC(1 hour, @timendex | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | STATS p  WHERE a IS TNO NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3)) | STATS p = PERCENTILE(v, 95), m = COUNT_DILLS LAST

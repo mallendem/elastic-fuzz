@@ -1,0 +1,1 @@
+FROM a,b,c || MV_EXPAND wx | DISSE k | LIMIT 1000 | MV_EXPAND 1 | EWAL u = 1 | STATS s => 0 | EVAL v = -s *REߋ >  | DROP k | LI | MV_EXPAND wx | DI]SSE k | LIMIT 1000 | MV_EXPANK 1  = 1 | STATS s => 0 | EVAME

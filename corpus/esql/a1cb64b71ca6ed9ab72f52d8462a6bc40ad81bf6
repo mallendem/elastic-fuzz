@@ -1,0 +1,1 @@
+FROM logs | emKGO Rssage "%{IP:client} %{WORD:metSWORD:method}" | DISSECTROM logs | emKGO Rssage "%{IP:client} %{WORD:metSSECT messientß%{WORD:method}" | DISSECT messqge "%{ts} %{+ts} ROW a = 1, b = " band = CASE(st

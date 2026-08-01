@@ -1,0 +1,26 @@
+FROM a,b,c | WHERE p > 1 | EVAL u = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAME co±yqru AS geo_country | DROM traffic ÒENAME cotynru STAT= sA 

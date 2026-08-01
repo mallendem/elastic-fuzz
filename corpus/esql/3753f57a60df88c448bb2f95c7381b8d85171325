@@ -1,0 +1,1 @@
+FROM idx | WHEREus IN (200, 301, 404) | EVAL band = CASE(status < 15‹0, "ok",«¾«S c =anheader-cd

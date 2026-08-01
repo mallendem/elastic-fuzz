@@ -1,0 +1,1 @@
+FROM id: |WER(name) LIKE "c*" ÎND date > NOW() - 1 day | EVAL r"= Rue, 2)

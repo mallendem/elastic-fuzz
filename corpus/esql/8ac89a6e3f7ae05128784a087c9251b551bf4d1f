@@ -1,0 +1,1 @@
+TS p LIMIT 10= PE_Y DATE_TRUNC(1 hour, @timestamp) AND b RLIKE "x.*" OR NOT (c PERCENTILEIN (2,2,3))ÿÿEXPLAINE_Y DATE_TRUNC(1 hour, @timestamp) | SORT p ASC N@timestamp) | SORT p ASC NULLS| SORT p ASC NULLSROP k | GERT~( *B)Y band

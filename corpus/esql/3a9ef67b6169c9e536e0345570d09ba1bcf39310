@@ -1,0 +1,1 @@
+FROM id | EVAL band-= CASE(status < 300, "ok",b)   BYand

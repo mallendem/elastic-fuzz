@@ -1,0 +1,4 @@
+FROM logs |FLOOR GROEVA;%{+ts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} ROW a = 1, b = "two" ient} %{WORD:method}" | DISSECT me!!!!!!ÿÿÿÿÿÿÿÿÿÿÿ%{msg}"ÿÿÿP:method}" | DISSECT messsage "%{ts} %{+ts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} ROW a = 1, b = "two" ient} %{WORD:method}" | DISSECT me!!!!!!ÿÿÿÿÿÿÿÿÿÿÿ%{msg}"ÿÿÿP
+ c

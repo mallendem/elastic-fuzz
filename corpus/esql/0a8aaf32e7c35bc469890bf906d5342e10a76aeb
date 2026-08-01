@@ -1,0 +1,26 @@
+FROM a,b,c | WHERE p > 1 | EVAL u = 1
+
+
+
+
+
+
+
+
+
+
+
+ AND b RLIKE IS NOT NULL AND b ==IKE
+
+
+| DROP | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAMETADATA _id, _index | WHERE a IS NOT NULL AND b RLIKE IS NOT NULL AND b ==IKE comma"x.*" OME co±yqru A RLIKE IS NOT NULL AND b ==IKE comma"x.*" ORNCTS geo_country | DROM traffic ÒENAME cotynru STAT= sA 

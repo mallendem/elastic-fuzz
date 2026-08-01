@@ -1,0 +1,1 @@
+FROM a,b,c | WHER*E t > 1JconstructorJJJJJJommanXPAND w | DISSECT w ]%{p}" | GROK p "%{NUMBER:n}"

@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u9 BROM a,b,c |  u = 1 |  s DESC | WHERE s > 0AV| DISSECT w "%{p}"l | GSS s = SUM(u) BYEP v, k & | MV_EXPAND w | DISSECT w "%{p}"l | GROK p "%{NUMBER:n}"

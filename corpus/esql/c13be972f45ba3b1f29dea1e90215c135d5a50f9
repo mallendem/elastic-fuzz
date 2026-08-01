@@ -1,0 +1,1 @@
+FROM yyyyyyyyyyyyyyyy.header- | ENRICH geo ON src_ip WITH country | RENAME H ™¡o ONy AS geo_coFROMy DRO‰ src_ip

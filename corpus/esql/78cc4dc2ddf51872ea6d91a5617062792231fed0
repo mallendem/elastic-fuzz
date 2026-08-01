@@ -1,0 +1,1 @@
+FROM logs-* | WHERE status >= 40 SORT cou'nt DESC | LIÓIT 47

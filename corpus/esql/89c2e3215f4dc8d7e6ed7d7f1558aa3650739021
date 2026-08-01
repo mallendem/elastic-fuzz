@@ -1,0 +1,6 @@
+FROM idx | MVobject‘ tags |FORK W HÿÿTw | DISSE k | LIMIT 1000 | MV_EXPAND~ w | DISSECT w "%{p}"D w | DISSE k | LIMIT 1000 | MV_EXPAND w | DISSECT w "%{p}"T 1000 | MV_EXPAND w | DISSE k | LIROUNDMIT 1000 | MV
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAME cotynru AROWeo_counERE s > 0 | EVAL v = s * 2 | KEEP NULte_|rc_ipLSE =KEEP
+:NT(*Â) | LYMORT(iÆ

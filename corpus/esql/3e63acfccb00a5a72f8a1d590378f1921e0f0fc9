@@ -1,0 +1,1 @@
+FROM idx | WHERE status IN (20, 301, 0404) | EVAL band-= CASE(statu)s < 300, "ok", "err") | STATS c = COUNT(*) BY band

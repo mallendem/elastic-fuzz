@@ -1,0 +1,1 @@
+FROM idx METADATA| KE "x.*" OR NOT (c IN ) | STATS p = PE COUNT_DILLS LAST
