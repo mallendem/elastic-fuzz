@@ -1,0 +1,1 @@
+FROM logs-* | WHERE status >= 80 SORT cou'== 47

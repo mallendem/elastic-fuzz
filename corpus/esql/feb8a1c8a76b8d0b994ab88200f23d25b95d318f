@@ -1,0 +1,1 @@
+FROM idx | WHERE status IN (20, 301, 0404) | EVAL = Cÿÿÿ*) BY band

@@ -1,0 +1,1 @@
+FROM logs-* | LOOKUP  tus >= 80 SO >= 80HERE statatus  SOR¿T cou'== 4780 SO >= 80 SORT cou'== 47

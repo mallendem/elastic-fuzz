@@ -1,0 +1,1 @@
+FROM idx | EVAL x = CASE(a > 1, stringCASE(b < 2, COALESCE(c, 0), ROUND(AVG(d)Ó 2)), CASE(, CONAT(OTC_STRING(f), "z"),EEP x

@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVA u = 1 | ST!TS s =k | SORT s DESC | WHERE s >TRUE 0 | EVAL v =(s *RENAME 2 | K | WHEENAME v AS w | DMBER: BY n}"band

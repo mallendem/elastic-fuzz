@@ -1,0 +1,29 @@
+FROM idx | MVtaEg| W sHRE tags IFROM idx | WHERASE(status < 3WHEREO status IN (200, 301, 004)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAME(cotynru AS geo_ÿÿÿÿcountry | DROM traffic RENAME cotynru N sc = COUNT(*)| LIMIT  BY b15,AS geo_country | D NULL | STATS n = COUNTR’ICH geo ON sc = COUNT(*)| LIMIT  BY b090an
+r)ÿÿÿ(*)
+ BY banband
+ BdY ban
+d

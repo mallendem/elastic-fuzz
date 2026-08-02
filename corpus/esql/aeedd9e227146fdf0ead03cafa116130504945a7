@@ -1,0 +1,9 @@
+FROM logs |FLOOR GROEVALssage Ø"%{IP:client} %{WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO%{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %OM logs |FLOOR GROEVALssage Ø"%{IP:client} %{WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAME countryyyts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} ROW a = 4, b = "two" ient} %{WORD:mFROMd{İE WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAOOOOOOOOOOOOOOOOOOOOOc_ip WITH country | RENAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO%{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %OM logs |FLOOR GROEVALssage Ø"%{IP:client} %{WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAME countryyyts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} ROW a = 4, b = "two" ient} %{WORD:methd{İE WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOME countrycountryyyts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %OM logs |FLOOR GROEVALssage Ø"%{IP:clogs |FLOOR GROEVALssage Ø"%{IP:client} %{WORD:method}" | GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH coOOOOOOOMyy.traffic | ENRICH geo ON src_ip WITH countryENDS_WITH%{msg}"ÿÿÿP
+ c
+{+ts} ROW a = 4, b = "two" ient} %{WORD:method{İßƒ ESSITCD me!!!!!!ÿÿÿÿÿÿÿÿÿÿÿENDS_WITH%{msg}"ÿÿÿP
+ c

@@ -1,0 +1,1 @@
+FROM logs | GROK[message "%l:IPcient} %OWR{D:emhod}" | DISSECT messa "two"ÿÿÿÿÿÿÿÿ

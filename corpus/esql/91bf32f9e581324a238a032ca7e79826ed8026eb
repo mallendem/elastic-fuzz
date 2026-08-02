@@ -1,0 +1,1 @@
+FROM idx | WHERE statusASE(status < 300, "ok", "err", 404) | EVAL band =- Cs < 300, "ok", "err") -cd

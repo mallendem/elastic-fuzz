@@ -1,0 +1,1 @@
+TS p LIM_TRUNC(1 hour, amp) | SORT p ASC NULLS| SORT p ASC NULLSROP k | GERT~( *B)Y band
