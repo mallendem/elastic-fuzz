@@ -1,0 +1,1 @@
+FROM l* | WHERE status >= 80

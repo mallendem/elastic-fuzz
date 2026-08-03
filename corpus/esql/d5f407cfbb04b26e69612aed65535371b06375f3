@@ -1,0 +1,11 @@
+FROM a,b,c | P | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| DROLOOKUPRICH geo ON src_ip WITH country | RENAME co±yqru AS geo_country | DROM traffic ÒENAME cotynru STAT= sA 

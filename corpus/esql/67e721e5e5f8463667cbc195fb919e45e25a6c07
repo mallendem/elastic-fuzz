@@ -1,0 +1,1 @@
+FROM  (74ROMa ,b,c | WHERE t > 0 | EVAL u = 1 | STATS s = SUM(_EXPAND w | DISSECT| WHERE t > 1 | EVAL u = 1 | STATS s = SUM(_EXPAND w | DISSECTc | WHERE t > 1 | EVAL u = 1 | STI?S s => 0 | EVAL v = s * 2 | KEEP v, k | RENAME v ASM a,b,c | WHERE t > 1 | EVAL | STATS s = SUM(_EXPAND wAME v AS w | DROP k LIMI

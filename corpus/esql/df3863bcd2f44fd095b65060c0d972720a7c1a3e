@@ -1,0 +1,1 @@
+ROw a = 1, b= a + LENGTH(b) ::KEEP c

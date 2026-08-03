@@ -1,0 +1,1 @@
+FROM idx | M99999999999 DE(status < 300, "ok",S NOT NULL | STATS n = COUNT(*)  "err") |` STAMIT 1000 | MV_EXPAND [AND [| WHERE t > 1 |OM andi p

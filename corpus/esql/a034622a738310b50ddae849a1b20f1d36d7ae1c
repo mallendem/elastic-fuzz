@@ -1,0 +1,1 @@
+FROM logs-* | WHaderc->= 200 | STATS count = 10

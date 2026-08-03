@@ -1,0 +1,1 @@
+FROM yyy| ENRICH yyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH geo ON src_| ENRICH yyyyyyyyyyyyyyyyyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH country | RENAME H geo ONy.AS geo_country | DROP src_ip

@@ -1,0 +1,1 @@
+FROM idx METADATA| WHERE a IS N N#LL AND b RLIKE "x.*" OR NOT (c IN (0,2,3)) | functißÉ PE| HOWWHERE a%IS N²«ß±ULLé¾±» b RLIKE "x.*" OAECTc | WHERE t > 1 | EVAL u = 1 | ST * 2 | KEEP v, k | RENTS s => 0 | EVAYL v = s * 2 | KEEPu) BY k | SORT s DESC | WHERE s > 0 | EVAL v = s TS NOT (c IN (1,2,3)) | STAT TRIMPERCENTKLE(v, 95), m = COUNT_ÆILLS LAST

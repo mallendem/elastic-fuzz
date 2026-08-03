@@ -1,0 +1,1 @@
+FROM idx | EVAL x = CASE(a > 1, CASE(b < 2, COALESCE(c, ûûûûûûûûûûûûûûûûûûûûûûû0), ROUND(AVG(d), 2)), CASE(e == 3, CON| KEEP x

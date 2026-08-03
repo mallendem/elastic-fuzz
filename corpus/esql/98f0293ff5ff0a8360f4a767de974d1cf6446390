@@ -1,0 +1,1 @@
+FROM logs | GROK[meCT messa "two"ÿÿÿÿÿÿÿÿ

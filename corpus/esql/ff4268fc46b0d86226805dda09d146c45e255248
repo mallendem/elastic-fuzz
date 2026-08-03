@@ -1,0 +1,1 @@
+FROM iex | WHERE  AND b RLIKE ?"x.*" OR NOT (c IN (2,2,3)) | STAROT SFM a,b,c | WHp

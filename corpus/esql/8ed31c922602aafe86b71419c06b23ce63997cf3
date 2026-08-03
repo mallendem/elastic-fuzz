@@ -1,0 +1,1 @@
+FROM logs | em Rssage "ÿÿÿÿÿÿÿÿ%{IP:client} %]{WORD:meORod}" | DISSECT mFROMG(dIP:client} %]{WORD:meORod}" 

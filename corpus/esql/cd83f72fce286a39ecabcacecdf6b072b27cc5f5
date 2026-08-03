@@ -1,0 +1,2 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | ST!TS s = SUM(u) BY k | SORT s(NULLS LAS,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(_EXPAND w | DISSECTc | WHERE t > 1 | EVAL u = 1 | STA?S s => 0 | EVAL v = spostfix-unaryÓš‡ßÕßÒ | KEEP v, k | RENAME v ASMV u = 1 | STA?S s => 0 | EVAL v = spostfix-unary-exp * 2 | KEEP v, k | NENAME v ASMV_EXPAN t > 1 | EVAL u = 1 | STATS s => 0 | EVAL v = s * 2 | RENAME BY k | SORT s DESC | WHERE s > 0 | EVAL v = s * 2 | KEEP v, k | RENAME v AS w | DROP k | LIMIT 1T s D²²TO_IXTEGERT( *B)Y band
+ESC | WHER
