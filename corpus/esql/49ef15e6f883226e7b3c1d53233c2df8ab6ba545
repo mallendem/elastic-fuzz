@@ -1,0 +1,1 @@
+FROM idx | MV_EXPAND tags |WHERE tags IS NOT*) BY | LIMIT 479

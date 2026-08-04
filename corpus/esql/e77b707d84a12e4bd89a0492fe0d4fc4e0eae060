@@ -1,0 +1,1 @@
+FROM logs | GROK messagpologs | GROK messagpostfFROM  (,778²² ²TO_M47, _EXPix-una[ry-ex (,779²² ²TO_M47, FROM i | WHERE status IN (200, 301FROMa,b,c | WHERE TO_INT| EVAstatus I |,

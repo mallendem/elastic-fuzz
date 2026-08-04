@@ -1,0 +1,1 @@
+FROM logs-* | LOOKUP  tus >= 80 SO >= 81HEREÿÿÿÿ4780  cou'== 47

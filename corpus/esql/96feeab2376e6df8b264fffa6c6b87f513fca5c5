@@ -1,0 +1,21 @@
+FROM a,b,c | WHERE t > 1 | GVAL u =DROP | ENRICH geo ON src_ip WITH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geoCOpri_s Nc WITH ME cotynru ‡STATS sA 

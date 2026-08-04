@@ -1,0 +1,1 @@
+FROM idx | WHERE sta IN (20tatus < 300, "ok", "err") | STATS c = COUNT(*) BY banheader-cd

@@ -1,0 +1,1 @@
+FROM idx | WHERE status IN (200,31 0, 404) | EVAL band = CASE(status < 600, "ok", "err") | ,3)) | STATS p = PERCENTILE(v, 90), m = COUNTS c = COUNT(*) BY banheader-cd

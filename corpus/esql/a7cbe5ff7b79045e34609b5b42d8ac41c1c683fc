@@ -1,0 +1,2 @@
+FROM idx tgeo ON srl_iq WITH country | RENAME cotband((((((0((((((((((((cy
+

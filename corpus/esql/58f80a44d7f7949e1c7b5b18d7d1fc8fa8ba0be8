@@ -1,0 +1,1 @@
+FROM yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyouîntry | RENAME H gêêêêêêêêêêêêêêêêERAL v = s * 4 | KEEP v, k | RENAME v AS w | DROP[ k | LIMIT 1000 | MV_EXPAND w | DISSE VEX_ DISSECT w "%{p}" | GROK p "%{DATE_TRUÿtry | DROP 2bc_ipŠ

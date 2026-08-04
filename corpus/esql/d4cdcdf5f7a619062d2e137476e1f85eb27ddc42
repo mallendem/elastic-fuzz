@@ -1,0 +1,1 @@
+FROM idx | WHERE status öööööööIN (ROW a = 1, b =]"ok", "err") ROUNT(*) BY band
