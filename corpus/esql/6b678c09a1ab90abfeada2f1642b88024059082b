@@ -1,0 +1,2 @@
+FROM logs |= GROK message1, b = "two" ROW| EVAL c = a + +LLENGTH(b) |T NUROM ROW| EVAL c = a + +LNиииииииииииииииииииибЪP
+ c√

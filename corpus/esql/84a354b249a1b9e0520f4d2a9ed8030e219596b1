@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 2 | STATS s = SUM(_> 0 | EVAL v = s * 2 | KEE@P v, k ÿÿÿÿÿÿÿÿ| RENAME v AS w | DROP k | LI¦ EVAL v = s * 2 | KEEP v, k | RENAME v ASMV_EXAûûûûûûR:n}"

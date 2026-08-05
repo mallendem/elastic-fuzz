@@ -1,0 +1,1 @@
+FROM id: |WER ÎND date > NOW() - 1 day | EVAL r"= Rue, 2)
