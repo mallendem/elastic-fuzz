@@ -1,0 +1,3 @@
+FROM idx | WHERE status ööööööööööööööööööööööööööIN (ROW a = 1, b =] "tWo" | EV = < 300, "ok",FROM idx | WHERE status ööööööööööööööööööööööööööIN (ROW a = 1, b =] "tWo" | EV = < 300, "ok",FROM idx | EVAL x = CASE(a > 1, CASE(b < 2”””””””””””””””””NG(g, 1, LENGTH(g)))) | KEEP x”””””””) | | KEEP MAZc
+COUNT(*) BY baROM idx | EVAL x = CASE(a > 1, CASE(b < 2”””””””””””””””””NG(g, 1, LENGTH(g)))) | KEEP x”””””””) | | KEEP MAZc
+COUNT(*) BY band

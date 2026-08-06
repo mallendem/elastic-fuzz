@@ -1,0 +1,1 @@
+FROM idx | WHERE staIstu:UO_LONG?1 WHERE staIsFROM  ( e, 2)

@@ -1,0 +1,51 @@
+FROM a,b,c | WHERE p > 1 | EVAL u = 1
+
+
+
+
+
+
+
+
+
+
+
+| EVAL u = 1
+
+
+
+
+
+
+
+
+
+
+
+ AND b RLIKE IS NOT NUL
+
+
+| DROP | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| [DROP | ENRICH geo ON src_ip WITH country | RENAMETADATA _id, _index | , AND b RLIKE IS NOT NULL AND b ==IKE
+
+
+| DROP | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| [DROP | ENRICH geo ON src_ip WITH country | RE cotynru STAT= sA¼

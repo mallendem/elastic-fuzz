@@ -1,0 +1,15 @@
+FROM a,b,c | WHERE t > 1 | EVAL u 
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRICH geo ON src_ip WITH country | RENAME co±ynru AS geo_cuntry | DROM t

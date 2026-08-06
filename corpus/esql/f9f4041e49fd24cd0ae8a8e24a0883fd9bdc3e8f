@@ -1,0 +1,1 @@
+FROM id: |te > NOW() - 1 day | EVAL r"= Rue, 2)

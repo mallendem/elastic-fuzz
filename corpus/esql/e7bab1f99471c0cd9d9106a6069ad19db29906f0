@@ -1,0 +1,3 @@
+FROM iindex | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (4,2,3)) | TU SNLL | STATS n = COuNT(*×ßBY tags | ATS p LIMIT:10= PERCENTILE(v,0
+ 95), FROM logs | GROK message "%{IP:client} %{Wm = COUNT_DISTINCT(id) BY DATRUORD:method}" | DISSECT message "%{t-s} %{+ts} FC(1 hour, @timestamp%{msg) | }"
+SORT p ASC NULLS LAST

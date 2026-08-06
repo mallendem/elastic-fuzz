@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 0 | EVAL u => 0 | EVAL v = s *  K |LOOKUP status IN ("00,AME v AS== | DMBER: BY n}"band

@@ -1,0 +1,1 @@
+FROM  (74ROM a,b,c | WHEERE s > 0 | EVAL v = s * 1 | KEEP v, k | RENAME v Y band
