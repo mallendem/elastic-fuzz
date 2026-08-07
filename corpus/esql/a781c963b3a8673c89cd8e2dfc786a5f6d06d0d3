@@ -1,0 +1,1 @@
+FROM _ind | STATS p = P,,,,C`OU IN (

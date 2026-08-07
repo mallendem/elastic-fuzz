@@ -1,0 +1,2 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUMNTk | RENAME v AS w |  k | LIMIT 1000 | MV_EXPAND w(*)| LIMIT  BY b’%{
+NUMBER:n}"

@@ -1,0 +1,42 @@
+FROM  (74ROM a,b(c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(_EXPAND w | HERE t > 10, 301, 404) | EVAL band = banheader IN (200, 321, 404) | EVAL band:: C: | EVAFROM idx | WHERE status IN (200, 301ÿÿÿÿÿÿÿ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRÿÿ| EVAL band:: C | EVAF
+
+
+| DROP | ENRÿÿÿÿÿÿÿÿÿÿÿÿ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| DROP | ENRÿÿÿ_iynru AS geo_ct rnou|y DROÿÿÿÿÿÿÿÿÿÿÿ

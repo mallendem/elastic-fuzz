@@ -1,0 +1,2 @@
+FROM yyyyyyyyyyyyyyyyyry | RENAME countryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy,yyyyyyyyy geo_country | DROP src_ip
+identifier

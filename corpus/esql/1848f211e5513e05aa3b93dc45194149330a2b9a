@@ -1,0 +1,11 @@
+FROM a,b,c | P | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| DROLOOKUP==CH geo ON src_ip WITH country | RENAME co±yqruotynru STAT= sA 
