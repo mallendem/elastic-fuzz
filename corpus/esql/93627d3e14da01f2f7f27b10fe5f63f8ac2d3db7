@@ -1,0 +1,2 @@
+FROM a,b,c | WHERE t > 1 | EVA | MV_EXPAND w(*)| LIMIT  BY b’%{
+NUMBER:n}"

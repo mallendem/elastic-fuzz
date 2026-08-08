@@ -1,0 +1,1 @@
+FROM a,b, | EVAL v = s *  K |LOOKUP status IN ("00,Y n}"band

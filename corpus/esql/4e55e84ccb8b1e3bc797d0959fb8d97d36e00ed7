@@ -1,0 +1,1 @@
+FROM l | LOOKUP | M l | LOOKUP | LOOKROM l | LOOKUP | LOOKUP  tus >= 80 AOÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ,LOOKÿÿÿÿÿÿÿÿÿOOKUP | LOOKUP  tus >= 80 AOP>

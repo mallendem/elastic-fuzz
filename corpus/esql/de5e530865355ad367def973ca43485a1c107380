@@ -1,0 +1,2 @@
+FROM logs | GROK message "od}" | DISSECT mess!ge " = 1, b = "two" | EVAL cÿÿsg}"ÿßÿP
+ c

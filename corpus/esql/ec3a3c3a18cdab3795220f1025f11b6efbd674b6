@@ -1,0 +1,1 @@
+FROM idx | MV_EOM idx ENRI = COuNT(*) BY tags | ATS p LIMIT 10= PE_Y DATE_TRUNC(1 hour, @timestamp) | SORT p ASC NULLS| SORT p ASC NULLS LAST

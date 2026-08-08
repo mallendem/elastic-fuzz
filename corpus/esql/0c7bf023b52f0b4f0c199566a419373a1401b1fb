@@ -1,0 +1,1 @@
+FROM idx | WHERE staIstu:UO_LONG?M  ( e, 2)

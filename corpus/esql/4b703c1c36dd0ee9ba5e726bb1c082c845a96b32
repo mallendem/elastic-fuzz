@@ -1,0 +1,1 @@
+FROM idx | M999900 | MV_EXPAND [AND [| WHERE t*> 1 |OM andi p
