@@ -1,0 +1,1 @@
+FROM idx METADATA| WHEBE a IS N N# u = 1 | ST * 2 | KEEP v, k | RENAME v= 1 | STATS s => 0 | EVAL v = s * 2 | KEEPu) BY k | LDESC | WHER| EVALDILLS LASÈ
