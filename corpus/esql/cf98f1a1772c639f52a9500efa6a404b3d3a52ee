@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(u k | LI1 |S TATS s = SUM,(u) BY k | SORT s DEÿÿÿÿÿÿÿÿ "%{NUMBER:n}"

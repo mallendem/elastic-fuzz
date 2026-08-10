@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 0 | EVAL u = 1 | ST!TS 3 =FROM idx SUM(u) BY k | SOVAL v = s * 2 | K | WHEREESIKE ииииииииииииииб:ЪC | WHERE s > 0 | EVAL v = s *  K | WHERE status IN ( | WHKEEPu) BY  STA?S s => уъ┐ъEVAL v = s * 2 | KEEP v, ????? k | SOVAL v = s * 2 Y n}"band

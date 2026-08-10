@@ -1,0 +1,1 @@
+FROM  (74ROMa ,b,c | WHERE t > 0 | EVs = SUM(_EXPAND w | DISSECT| WHERE t > 1 | EVAL u = 1 | STApTS s = SUM(_EXPAND w | DISSECTc | WHERE t > 2 | EVAL u = 1 | STI?S s => 0 | EVAL v = s * 2 | KEEP v, k | RENAME 6 ASM a,b,c | WHERE t > DROP k LIMI

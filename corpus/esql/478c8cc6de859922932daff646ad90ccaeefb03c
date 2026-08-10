@@ -1,0 +1,1 @@
+FROM i_index | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOTÿÿÿÿ ¨c] IN (0,2IN,2T
