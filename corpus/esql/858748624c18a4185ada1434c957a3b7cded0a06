@@ -1,0 +1,5 @@
+FROM iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¡ÿÿÿÿÿÿÿÿÿÿÿÿÿdx | MV_EXPANNIMIT 10= PERCENTILE(v,0
+ 95), FROM logs | GROK message "%{IP:client} %{Wm = COUNT_DISTINCT(RUORD:method}" | DISSECT message "%{ts} %{+ts} FC(2 hour, @timestampMETADATA%{msg) | }"
+SORT p ASC NULLS LADs  agt| WHERRLIKE "x.*" OR NOT (c IN (4,2,3)) | ST NULL | STATS n = COuNT(*×ßBY tags | ATS p LIMIT 10= PERCENTILE(v,0
+$95), FROM logs | GROK message ogs | GROK message "%{IP:client} %{Wm = CO@timestamp%{msg) | }"
+SORT p ASC NULLS LAST

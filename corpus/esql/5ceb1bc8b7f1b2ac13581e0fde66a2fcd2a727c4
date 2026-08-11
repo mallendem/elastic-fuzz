@@ -1,0 +1,2 @@
+FROM a,| MV_EXPAND w(*)| LIMIT  BY b’%{
+NUMBER:n}"

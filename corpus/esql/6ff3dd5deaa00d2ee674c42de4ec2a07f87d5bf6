@@ -1,0 +1,5 @@
+FROM idx | MVobject‘ tags |FORK W HÿÿTw | DISSE k | LIMIT 0500 | MV_EXPAND~ w | DISSECT w "%{p}"D w | DI w | HERE t > 1 | EVAL u Ä AND w | DISSECT w "%{p}"T 1000 | MV_EXPAND w0 | MV
+
+
+
+| DROP | ENRICN src_ip WITH country |> 0 | EVAL v = s * 0 | KEEP NtULe_|rc
