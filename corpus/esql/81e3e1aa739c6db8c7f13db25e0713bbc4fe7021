@@ -1,0 +1,1 @@
+FROM idx | WHEREEVAparens = CASE(status < 162, "orr") | STATS c = COUNT(*) BY ban%
