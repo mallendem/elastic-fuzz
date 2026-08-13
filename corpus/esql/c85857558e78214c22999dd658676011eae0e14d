@@ -1,0 +1,1 @@
+FROM idx | Wanheader IN IN (20 404) | EVAL band = banheader IN (200, 301, 404) | EVAL d

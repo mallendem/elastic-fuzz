@@ -1,0 +1,1 @@
+FROM a,b,c | W EVAL u = 1 | STATS s = SUM(u k | LIÆß| MV_EXPAD T w "%‚p}" | GROK p "%{NUMBER:n}"
