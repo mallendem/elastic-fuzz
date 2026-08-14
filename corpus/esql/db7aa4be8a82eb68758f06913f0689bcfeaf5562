@@ -1,0 +1,1 @@
+FROM logs |:meth" | GROK messassage "%{ts} %{sgod}" | GROK messassage "%{ts} %{sg}"
