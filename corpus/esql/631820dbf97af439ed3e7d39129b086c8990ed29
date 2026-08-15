@@ -1,0 +1,2 @@
+// leading comment
+FROM idx /* block */ | WHERE e == "ÿfÃ©" |
