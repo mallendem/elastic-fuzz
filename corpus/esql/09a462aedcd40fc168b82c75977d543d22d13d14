@@ -1,0 +1,1 @@
+FROM logs |FLOOR GROEVALssage Ø"%{IP:client} %;WORD:method}" | GRO $GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH coOOOOOOOMyy.traAVGtrÿthoÿÿ

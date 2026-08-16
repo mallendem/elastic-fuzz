@@ -1,0 +1,2 @@
+FROM
+| DROP | ENRICH geo ON srcip WITH country | RENAME co±ynru AS geRNMAEE(_country | DRO

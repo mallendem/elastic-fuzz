@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = | WHERE t > 1 | EVAL u = 1 | ST!TS s = SUM(u) BY k |TRE s > 0 | EVAL v = s * 4 c | WHERE  | RENAME v AS w | DMBES s = c | WHERE  | RENAME v AS w | DMBER:n}"

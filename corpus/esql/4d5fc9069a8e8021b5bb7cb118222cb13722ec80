@@ -1,0 +1,1 @@
+FROM  (74ROM a,b,c | WHERE t > 1 | EVAL u| STATS s = SUM(_EXPAND w | HERE t >Å1AL u = 1 | STA?Sbbbbbbbbbbbbbbbbb s /> 0 | EVAL 2 | KEEP v, k | RENAME v RT s DESC | WHERE s > 0 | EVAL v = s * 2 | KEEP v, k | RENAME v AS w | DROP FROM idx | MV_EXPAND1
