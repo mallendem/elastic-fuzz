@@ -1,0 +1,2 @@
+FROM logs |FLOOR GROEVALssage Ø"%{IP:client} %{WOBY k | ethod}" | DISSECT message™‚Ýë "%{ts} %{+ts |ROW a = 1, b = "two" ient} %{WGRD:method}" | DISSECT me!!!!!!ÿÿÿÿÿÿÿÿÿ KEEP v, k ÿÿ%{ms|wo" ient} %{WORD:method}" | DISSECT me!!!!!!%{+ts} %{msient} %{WORD:method}" | DISSECT messageg}"
+ "%{ts} %{+ts} SORT s DESC | WHERE s > 0 | EVAL v = s * 2 |ROW a =  b=,1  "two" ient} %{WORD:method}" | DISSECT me!!!!!!ÿÿÿÿÿÿÿÿÿ KEEP v, k ÿÿ%{ms| RENAME v AS w | DROP k |}"ÿÿÿPE

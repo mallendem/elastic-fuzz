@@ -1,0 +1,1 @@
+FROM logs |FLOOthod}" | GRO $GROK yyyyyyyyyyy.traffic | ENRICH geo ON src_ip WITH coOOOOOOOMyy.traobjectAVGtrÿthoÿÿ
