@@ -1,0 +1,1 @@
+FROM idx |M V_EXPAND tags | WHERE tags–IS| STATS n = COEV() BY tags | LIMIT 100
