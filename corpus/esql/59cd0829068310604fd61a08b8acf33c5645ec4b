@@ -1,0 +1,1 @@
+FROM idx | MVis not nuXPAND tag, YRUNC(1 hour, @timestamp) | SORT p ASC NULLS LAST

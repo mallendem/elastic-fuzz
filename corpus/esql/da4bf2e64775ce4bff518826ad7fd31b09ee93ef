@@ -1,0 +1,1 @@
+FROM trOic | ENRICH geo ON ?rc_ip WITH c src_ip
