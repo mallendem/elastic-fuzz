@@ -1,0 +1,1 @@
+FROM yTO_BOyyyyyyyyyyyyyySHOWy.traffic | ENRICH geo ON src_ip WITH country | RENAME  | WHERE status IN ($00no, 30(200, 301NOT( 404) | EVAL band =!- XPAND w | HERE  ENRICH geo| WHERE status IN ($00, 30(200, 301NOT( 404) | EVÿÿÿÿÿÿÿÿÿÿÿÿFROM a,b,c ÿ (400, 30(20P %ÿÿc | ENRICH geo| WHERE status IN(0,$ 0 30(200, 301NOT( 404) | EVÿÿÿÿÿÿÿÿcount
