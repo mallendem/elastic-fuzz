@@ -1,0 +1,2 @@
+FROM a,b1 | EVAL u = 1 | SoTA?S s => 0 | EVAL v = sopstfix-unaryÓš‡ßÕßÒ | KEEP v, k | RENAME v SAMV(u = 1 | STA?S  => 0 | EVAL v = spostfix-unary-exp * 2 | KEEP v, k | NAME B²TO_IXTEGERT( *B)Y band
+ESC | WHER

@@ -1,0 +1,1 @@
+FROM traffic | ENRICH geo ON src_ip WITH country | RENAME countrON sULL | RENAME country ÿ sr_cip
