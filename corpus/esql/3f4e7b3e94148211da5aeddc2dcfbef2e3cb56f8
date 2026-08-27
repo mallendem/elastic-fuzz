@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = 1 | ST!TS s = SUM( u) BY k | SORT s NULLS LASTRE s >M  (74ROM a,b,c | WHERE t > sos | KEEP v, k | RENAME v ASMV u = 1 || WHER

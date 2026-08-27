@@ -1,0 +1,3 @@
+FROM a,b,c | WHERE t > 1 | EVAL u = |BES s = c | WHERE  | RENAME v AS w |  MD
+,
+0 DMBES s = c | WHERE  | RENAME v AS w | DMBER:n}"
