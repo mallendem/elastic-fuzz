@@ -1,0 +1,31 @@
+FROM aING
+
+
+
+
+
+
+| EVAL u =P | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| [DROP | ENRICH geo ON src_ip WITH country | RENAMETADATA _id, _index | , AND b RLIKE IS NOT NULL AND b ==IKE
+
+
+| DROP | ENRICH geo ON src_ip WITH
+
+]
+
+
+
+
+
+
+
+| [DROP | ENRICH ge? ON src_ip WITH coÿÿtry | RE cAT= sA¼

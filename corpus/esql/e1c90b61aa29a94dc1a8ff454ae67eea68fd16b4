@@ -1,0 +1,1 @@
+FROM idx | EVAL x = CASE(a!= 1, CASE(b < 2,ûûûûûûûûûûûû0), ROUND(AVG(d), 2)), CASE(, C-N| KEEP x
