@@ -1,0 +1,2 @@
+FROM logs |= GROK mes| EVAL c = a + +LLENGTH(b) |T NUFLOORO| EVAL c = a + +LNиииииииииииииииибЪP
+ DIS╢ECTc√
