@@ -1,0 +1,16 @@
+FROM a,b,c | WHVAL,u = 1P functionN ::("00,AME v A
+¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢literal¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢k | LIv = s *  K |LOOKUP functionN ::OW a =NULLÿÿ1("00,AME v A
+
+| DROP | ENRL,u = 1 |  k | SROP k | LIvFROM = s *  K |LOOKUP functionN ::("00,AME v A
+¢¢¢¢NULLS FIRST¢¢¢¢¢¢¢¢¢¢¢¢literal¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢k | LIv = s *  K |LOOKUP functionN ::OW a =NULLÿÿ1("00,AME v A
+
+| DROP | ENRICH g.1 | ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆICH g.1 | ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ |  k | SROP k | LIv = s *  K |LOOKUP functionN ::("00,AME v A
+¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢header-literal¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢k | LIv = s *  K |LOOKUP functionN ::OW a =NULLÿÿ1("00,AME v A
+
+| DROP | ENRL,u = 1 |  k | SROP k | LIv = s *  K |LOOKUP functionN ::("0k | SROP k | LIv = s *  K |LOOKUP functionN ::("00,AME v A
+¢¢¢¢NULLS FIRST¢¢¢¢¢¢¢¢¢¢¢¢literal¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢k | LIv = s *  K |LOOKUP functionN ::OW a =NULLÿÿ1("00,AME v A
+
+| DROP | ENRICH g.1 | ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆICH g.1 | ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ |  k | SROP k | LIv = s *  K |LOOKUP functionN ::("00,AME v A
+¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢literal¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢k | LIv = s *  K |LOOKUP functionN ::OW a =NULLÿÿ dx²| WHERE 1("00,AME v A
+
+| DRO?tP | ENR
