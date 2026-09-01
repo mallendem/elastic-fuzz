@@ -1,0 +1,1 @@
+FROM a,b,k | RENAME v AS + |DROP[ k |TEUÿÿNC

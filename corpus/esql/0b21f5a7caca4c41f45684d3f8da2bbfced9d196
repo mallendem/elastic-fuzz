@@ -1,0 +1,1 @@
+FROM idx | W,ERP | ENRICH geo ON src_ip WITH countMMMMMMMM,MMMMMMMMMMbansrc_ip
