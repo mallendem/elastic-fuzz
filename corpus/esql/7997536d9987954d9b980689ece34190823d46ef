@@ -1,0 +1,1 @@
+FROM logs | GROK[ma "two"ÿÿÿÿÿÿÿÿ
