@@ -1,0 +1,1 @@
+FROM idx | EVAL x =  >  ,b, COALESCE(c, 0), ROUND(AVG(d)Ó 2)SE(, CONAT(OTC_STRING(f), "z"),EEP x

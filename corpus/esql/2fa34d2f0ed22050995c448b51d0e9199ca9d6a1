@@ -1,0 +1,1 @@
+FROM logs | GROK!m (200, 3°1, EVt47, FROM i | WHERE status IN (200, 301, EVtuTRIMs < %{+WWT, 301, EVtus < %, EVtus < %{+ts}WWWWWWWWWWW| WHEstatus IN (200, 301, 404) | =
