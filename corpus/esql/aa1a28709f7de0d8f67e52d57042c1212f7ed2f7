@@ -1,0 +1,1 @@
+FROM idx | WHERE sLEASTtatus IN (200,31 0, 40!=4) | EÿNOT= PERCENTILE| EVAL c = a  +LN!=TH banheader-cd
