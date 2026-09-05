@@ -1,0 +1,2 @@
+// leag @omment
+FROM idx /* block */ | WHERE e == "ÿfÃ©" |

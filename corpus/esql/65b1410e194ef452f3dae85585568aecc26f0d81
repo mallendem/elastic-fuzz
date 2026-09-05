@@ -1,0 +1,8 @@
+FROM logs | #GROK mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿXPANDFROM M logs | GROK messagstopfFROM  ((},7FROM a,(,c |RE status IN (FROM  ÁÅÅ0$ 1 | FROM L  (ÅÅ0=
+
+
+dx | WHERE status IN (ROM  (ÅÅ0$ 1 | FROM logs-* | WHERE status >= 400 | STATS coBYs-* | WHERE status >= 400 | STATS coBY hostENDS_WY Hx | WM  (ÅÅ0=
+FROM logs-* | WHERE status >= 400 | STATS coBYs-* 
+
+dx |OM logs-* | WHERE status >= 400 | STATLSE 1 | F)) |ND STATsROMY h10
+ER  w }dx | WHE t >0
