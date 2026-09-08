@@ -1,0 +1,1 @@
+FROM ix1 | WHERE TO_LOWER(name) LIKE "a*" AND datayRO(value, 2)
