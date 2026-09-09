@@ -1,0 +1,1 @@
+FROM idx | EVAL =CA1, CASE(b 
