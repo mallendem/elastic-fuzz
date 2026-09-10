@@ -1,0 +1,1 @@
+FROM idx |W HERE CONCAT | GROK mes=aaas IN (200, 301, 004)TATS?

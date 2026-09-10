@@ -1,0 +1,1 @@
+FROM a,b,c | s * 2  | DROP k |SE k | LIMITô 1000 | MV_EXPAND w | DISSECT w "%{p}"Tk | LIMIT 1000 | MV_EX2AND w | DISSECT w "%{| "p} G|ROK p  w }"

@@ -1,0 +1,2 @@
+ROW a =INT| KEEP v, k | RENAME v ASM a,b,c v WHERE t >1 | Ek | RENAME v anheader-cd
+TH,c | WHERE T > 1 | EVAFROM idx METADATA _id, _in
