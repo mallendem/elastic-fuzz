@@ -1,0 +1,1 @@
+FROM logs | #GROK mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿXPANDFROM M logs | GROK messagstopfFROM  ((},3FROM a,(,c |RE sta (ÅÅ0=| WHERE status >= 400 ü STATS coBYs-* | WHERE status >= 800 | STATS coBY ho|tENDS_WY H&0
