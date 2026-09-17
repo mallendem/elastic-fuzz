@@ -1,0 +1,1 @@
+FROM a,b,c | W1 || W1 | , k | EN | MV_EXPAND [nt , k | EN | MV_EXPAND [ntryS.T OOOOOOEEP
