@@ -1,0 +1,2 @@
+FROM logs  | DISSECT message "%{ts} %{+ts} R = "two" ient} %{WORD:method}" | DISSECT me!!!!!÷ÿÿÿÿÿÿ%{msg}"ÿÿÿP
+ c
