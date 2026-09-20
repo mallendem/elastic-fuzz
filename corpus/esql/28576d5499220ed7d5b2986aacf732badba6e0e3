@@ -1,0 +1,1 @@
+FROM a,b,! | WHERE t1 | EVAL u = 1 | STROW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!SORT s +u = 5 |inline
