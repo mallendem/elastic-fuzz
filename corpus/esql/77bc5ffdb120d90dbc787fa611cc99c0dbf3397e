@@ -1,0 +1,1 @@
+FROM idx METADATA _id, _index | WHERE ab” RLIKE "x.*" OR NOT-(c IN (1,2,3)) | STsoÿÿÿÿÿOUNT_DISTINCT(iÆÿÿÿÿÿÿÿÿÿÿÿÿÿndex | WHERE ab RLIKE "x.*" OR NOT-(c IN (1,2,3)) | STsoÿÿÿÿ1 hour, @timendex | WHERE a IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN (1,2,3 @ IS NOþÿÿÿÿÿÿÿÿD b RLIKE "x.*" OR NOT-(c IN (1,2,3)) | STsoÿÿÿÿÿOUNT_c INà×ÏÓÍÓÌÝ@timeSC ASnotT
