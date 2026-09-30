@@ -1,0 +1,2 @@
+FROM ls |= GROK mes| EVAL c = a + +L| EVAL c = a + +LÉÉÂÿP
+ DIS´ECTc–

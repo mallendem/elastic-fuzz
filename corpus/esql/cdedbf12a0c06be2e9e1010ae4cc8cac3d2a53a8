@@ -1,0 +1,1 @@
+FROM idx METADATA _id, _index | W) | STATS p = PERCENTILE(v, 95-), m =ATE_TRUNC(1 hour, @timestamp) | SOR,3)) | STATS p = PERCENTILE(v, 95), m = CT(id) BY DATE_TRUsssssssssNC(1 hour,ÿ@timestamp) | SORT p ASCAST
