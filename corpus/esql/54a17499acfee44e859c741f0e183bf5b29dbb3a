@@ -1,0 +1,2 @@
+// nt
+FROM idx /* block */ | WHERE e == "ÿfÃ©" |
