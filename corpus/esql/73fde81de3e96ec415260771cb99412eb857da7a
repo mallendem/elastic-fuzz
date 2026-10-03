@@ -1,0 +1,6 @@
+FROM a,b,c | WHETATS s = SVAL c иииииииииии2ииииииииииииииииииииииииииORииииикиAиииECT message "%{ts} %{+ts} FC(1 hour, @timestamp%{msg) | }"
+SORT p ASC NULLS LFROM idx | MV_EXPAND`tagоMEc = COUNT(*)| LIMIT  BY b00, "ok",S NOT NULL | STAno n = COUNM idx | MVRENAMEc = COUNT(*)| LIMIT  BY b00, "ok",S NOT NULL w STAno n = COUNTRТICH geY b00, "ok",S NOT NULL | STAno n = COUNTRТCONCATICH geo  banbaROMNAMEc = COUNT(*)| LIMIT  BY b00, "ok",S NOT NULL | STAno n = COUNM idx | MXEV_PAND`tagоооооо)rоtnyhconstructoreadeOM traffic RENAMEc = COUNT(*)| LIMIT  BY b00, "ok",S NOT NULL w STAno n = COUNTRТICH geY b00, "ok",S NOT NULL | STAno n = COUNTRТCONCATICH geo  banbaROM idx | MV_EXPAND`ta€€€€оооо)ntryheadeOM traffic RENAMEc = COUNT(*)|TRТICH geY b00, "ok",S NOT NULL | STAno n = COUNTRТCONCATICH geo  banbaROM idx | MV_EXPAND`ta€€€€оооо)ntryheadeOM traffic RENAMEc = COUNT(*)| LIMIT  BY b00, "ok",S NOT N n = COUNTRТICH geo  banband
+ BdYnd
+ BdY ban
+d
+,T"%{NUMBER:n}"
