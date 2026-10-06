@@ -1,0 +1,1 @@
+FROM  | WHERE TO_L(name) LIKE "a*" ]tL
