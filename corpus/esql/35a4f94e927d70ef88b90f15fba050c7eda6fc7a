@@ -1,0 +1,1 @@
+FROM idx METADATA _id, _index | WHER; NOT (c IN (1,2,3)) | STATS p = PERCENTILETE_TRUNC(1 hour,id) BY DATE_TRUNC(1 hour, @timestamp) | SORT p ASCAST
