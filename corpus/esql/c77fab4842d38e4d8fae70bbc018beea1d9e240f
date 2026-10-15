@@ -1,0 +1,11 @@
+FROM a,b,| ENRICH gesrc_ip WITH
+
+]
+
+
+
+
+
+
+
+| DROLOOKUP==CH geo ON src³_ | RENAME co±yqruotCASEynru STAT= sA 
