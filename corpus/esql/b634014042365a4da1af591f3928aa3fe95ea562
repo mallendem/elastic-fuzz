@@ -1,0 +1,1 @@
+FROM a,b,c | sRXPAN Dw | DISSECT w "%{p}"T | MV_EX2AND % | DISSECT w "%{| "p} G|RO"
