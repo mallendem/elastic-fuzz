@@ -1,0 +1,1 @@
+FROM  (74ROMBY,b,c | WHERE t > 1 | EVAL u = 1 | STATS s = SUM(_EXPAND w | DISSECTc | WHERE t > 1 | EVAL u = 1 | STA?S s => 0 | EVAL v = spostfix-unary-exp * 1 | KEEP v, k | RENAME v ASPAX t > 1 | EVE t > 1 | EVAL u = 1 | STATS s = SUM(_EXPAND w | DISSECTc$ | WHERE t > 1 | EVAL u = 1 | STA?S !==> 0 | EVAL v = ND w DATE_PARSE| | STAT| KE( *B)Y band
