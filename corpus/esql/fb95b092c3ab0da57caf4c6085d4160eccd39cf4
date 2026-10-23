@@ -1,0 +1,1 @@
+FROM a,b,c |W HER| REEXPAND w | DISSECT w "%{p}" | GROK p  DESMITM idx | EVAL x = CASE(a > 1, CASE(b < 2,BYO(AVG(d), 2)), CASE(e =ROW= w | v AS w | DROP k | LIMIT 1000 | MV_EXPAND w | DISSECT w "%{p}" | GRBY k |/SORT s D | DISSECT w "%{{IP:client} %{WORD:ND w |m DIe
