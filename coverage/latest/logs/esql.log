@@ -8,12 +8,12 @@ INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_esql
 INFO: using inputs from: /github/workspace/cifuzz-corpus/esql
 Dictionary: 4 entries
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 3269084919
-INFO: Loaded 6 modules   (16384 inline 8-bit counters): 512 [0x7f0e644e6010, 0x7f0e644e6210), 512 [0x7f0e644e6210, 0x7f0e644e6410), 1024 [0x7f0e644e6410, 0x7f0e644e6810), 2048 [0x7f0e644e6810, 0x7f0e644e7010), 4096 [0x7f0e644e7010, 0x7f0e644e8010), 8192 [0x7f0e644e8010, 0x7f0e644ea010), 
-INFO: Loaded 6 PC tables (16384 PCs): 512 [0x7f0e2efff010,0x7f0e2f001010), 512 [0x7f0e2f001010,0x7f0e2f003010), 1024 [0x7f0e2f003010,0x7f0e2f007010), 2048 [0x7f0e2f007010,0x7f0e2f00f010), 4096 [0x7f0e2f00f010,0x7f0e2f01f010), 8192 [0x7f0e2f01f010,0x7f0e2f03f010), 
-MERGE-OUTER: 8909 files, 0 in the initial corpus, 0 processed earlier
+INFO: Seed: 872944186
+INFO: Loaded 6 modules   (16384 inline 8-bit counters): 512 [0x7fafa879c010, 0x7fafa879c210), 512 [0x7fafa879c210, 0x7fafa879c410), 1024 [0x7fafa879c410, 0x7fafa879c810), 2048 [0x7fafa879c810, 0x7fafa879d010), 4096 [0x7fafa879d010, 0x7fafa879e010), 8192 [0x7fafa879e010, 0x7fafa87a0010), 
+INFO: Loaded 6 PC tables (16384 PCs): 512 [0x7faf72fff010,0x7faf73001010), 512 [0x7faf73001010,0x7faf73003010), 1024 [0x7faf73003010,0x7faf73007010), 2048 [0x7faf73007010,0x7faf7300f010), 4096 [0x7faf7300f010,0x7faf7301f010), 8192 [0x7faf7301f010,0x7faf7303f010), 
+MERGE-OUTER: 8940 files, 0 in the initial corpus, 0 processed earlier
 MERGE-OUTER: attempt 1
 MERGE-OUTER: successful in 1 attempt(s)
-MERGE-OUTER: the control file has 1113193 bytes
+MERGE-OUTER: the control file has 1116693 bytes
 MERGE-OUTER: consumed 0Mb (341Mb rss) to parse the control file
-MERGE-OUTER: 1040 new files with 18194 new features added; 2756 new coverage edges
+MERGE-OUTER: 1042 new files with 18199 new features added; 2756 new coverage edges
