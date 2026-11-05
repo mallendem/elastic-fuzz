@@ -2,9 +2,9 @@ INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_rison
 INFO: using inputs from: /github/workspace/cifuzz-corpus/rison
 Dictionary: 4 entries
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 3981289871
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7fa5fc0d3010, 0x7fa5fc0d3210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x7fa5c6fff010,0x7fa5c7001010), 
+INFO: Seed: 1028652519
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f32848bd010, 0x7f32848bd210), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x7f325cfbf010,0x7f325cfc1010), 
 MERGE-OUTER: 2009 files, 0 in the initial corpus, 0 processed earlier
 MERGE-OUTER: attempt 1
 MERGE-OUTER: successful in 1 attempt(s)
