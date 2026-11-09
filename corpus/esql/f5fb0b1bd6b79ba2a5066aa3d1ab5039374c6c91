@@ -1,0 +1,1 @@
+FROM  (74ROM a,c |% WH v, k  2 | KEEP v, k | NAME v AS0nIXTEGERTERE t > 1 | A?S s => 0 | EVAL v = s * 2 | KEEP v, k | RENAM v ASMV_EXPAN 2 | KEEP v, k  2 | KEEP v, k | NAME v AS0nIXTEGERT( *B)Y band
