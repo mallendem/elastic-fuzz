@@ -1,0 +1,1 @@
+ROW k | RENAME  ASM a,b, STAW 1, b = "two" | staFROk | RENAME v ASM a,
