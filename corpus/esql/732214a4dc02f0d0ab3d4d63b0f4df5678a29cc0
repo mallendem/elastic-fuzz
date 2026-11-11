@@ -1,0 +1,1 @@
+FROM idx METADATA| KE "x.<" | STATS p S LAST
