@@ -1,0 +1,1 @@
+FROM a,b,c | WHERE t > 1 |L v = s * 4 | KEEP v, k | RENAME v AS w | DROP k | LßÄ©AL v = s * 2 | KEEP v, k | RENAME v AS w | DROP k |% LIMIT 1001 | MV_EXPAND [| ©·ERE‰ t > 1 |E t > 1 |L v = s * 4 | KEEP v, k | RENAME v AS w | DROP k | LßÄ©AL v = s * 2 | KEEP v, k | RENAME v AS w | DROP k |% L EOOOOÿi p
