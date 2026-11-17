@@ -1,0 +1,1 @@
+FROM idx | MV_EXP get ON sc = COUNT(*)| LIMIT  BY c, 0), 
