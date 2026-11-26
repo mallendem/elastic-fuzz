@@ -1,0 +1,1 @@
+FROM idx, _index | WHERE a IS T NULL AND b RLIKE "x.*" OR NNT (c IS NOT METCDAT RLIKE "x.*" OR NOT (cRLIKE "x.*" OR NNT (c IS NOT NULL AND b RLIKE "x.*" OR NOT (c IN ::::::::::::::::::,1,S AST
